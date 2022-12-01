@@ -6,7 +6,7 @@ import java.util.*;
 
 class d1_sln {
     public static void main(String[] args) throws FileNotFoundException {
-        File in = new File("d1_easy_input.txt");
+        File in = new File("d1_input.txt");
         Scanner f = new Scanner(in);
         String line;
         int sum = 0;
