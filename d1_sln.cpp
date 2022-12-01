@@ -11,7 +11,6 @@ int main(int argc, char const *argv[])
 {
     std::ifstream i ("d1_input.txt");
     int sum = 0;
-    int max = 0;
     std::set<int> o;
     string line;
     while(i.peek() != EOF) {
